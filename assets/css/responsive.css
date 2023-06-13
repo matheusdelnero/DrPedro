@@ -279,7 +279,7 @@
 .banner-details {
   text-align: center;
 }
-.banner-details .cd-headline b {
+.banner-details .cd-headline b { 
   font-size: 50px;
 }
 
@@ -332,7 +332,7 @@
   right: 198px;
 }
 .contact-address ul li p, .contact-address ul li a {
-  font-size: 20px;
+  font-size: 20px;  
 }
 .scroll-area i {
   width: 50px;
