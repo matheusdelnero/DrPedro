@@ -4,6 +4,9 @@
   margin-bottom: 9px;
   font-size: 13px;
 }
+
+
+
 .awrd-icon {
   background: #feffff;
   padding: 16px 15px;
@@ -301,7 +304,12 @@
   
 
 
-
+  @media (max-width: 1400px) {
+    .video {
+      width: 100%;
+      /* Estilos que serão aplicados quando a resolução for menor que 1400 */
+    }
+  }
 
 
 
@@ -394,6 +402,7 @@
   left: 18px;
 }
 }
+
 
 @media all and (max-width:490px){
 .banner-right .skill-img img {
@@ -592,4 +601,6 @@ p{
 }
   
   
+
+
   
