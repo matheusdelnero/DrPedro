@@ -54,7 +54,7 @@
     font-size: 13px;
     top: 74px;
     left: 54.5px;
-    color: #1A32A8;
+    color: #28867e;
   }
 
 }
@@ -94,7 +94,7 @@
   font-size: 15px;
   top: 87px;
   left: 61.5px;
-  color: #1A32A8;
+  color: #28867e;
 }
 .awrd-icon .icon {
   padding-right: 8px;
@@ -131,7 +131,7 @@
   font-size: 13px;
 }
 .header .menu > .menu-iteam:first-child >a{
-  border-top: 1px solid #6728FE;
+  border-top: 1px solid #28867e;
 }
 .header .menu > .menu-iteam-has-childrean > a{
   display: flex;
@@ -363,7 +363,7 @@
 }
 .about-area::before {
  
-  border: 3px solid #6728FE;
+  border: 3px solid #28867e;
   width: 35px;
   height: 35px;
   top: 28px;
