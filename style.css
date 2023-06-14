@@ -111,7 +111,7 @@ p {
 
 .loader-p:before, .loader-p:after{
   content: '';
-  border: 1em solid #6728FE;
+  border: 1em solid #28867e;
   border-radius: 50%;
   width: inherit;
   height: inherit;
@@ -170,7 +170,7 @@ p {
 	display: block;
 	position: absolute;
 	border-radius: 50%;
-	border: 2px solid #8731E8;
+	border: 2px solid #28867e;
 	-webkit-animation: iconPulse 1s linear infinite;
 	animation: iconPulse 2s linear infinite;
 }
@@ -297,7 +297,7 @@ p {
 	right: 0;
 	width: 0;
 	height: 2px;
-	background: #6728FE;
+	background: #28867e;
 	transition: ease all 0.35s;
 }
 
@@ -308,7 +308,7 @@ p {
 }
 
 .current a {
-	color: #6728FE !important;
+	color: #28867e !important;
 }
 .header .menu > .menu-iteam a .plus{
 	display: inline-block;
@@ -325,23 +325,23 @@ p {
 	box-sizing: border-box;
 	top: 50%;
 	left: 50%;
-	background:#0207FF;
+	background:#28867e;
 	height: 2px;
 	width: 100%;
 	transform: translate(-50%,-50%);
 	transition: all 0.3s ease;
 }
 .header .menu > .menu-iteam:hover a .plus::before, .header .menu > .menu-iteam:hover a .plus::after {
-	background: #2133CC;
+	background: #28867e;
 }
 .header .menu > .menu-iteam a .plus:after{
 	transform: translate(-50%,-50%) rotate(-90deg);
 }
 .header .menu > .menu-iteam > .submenu > .menu-iteam > a:hover{
-	color: #0207FF;
+	color: #28867e;
 }
 .header .menu > .menu-iteam:hover> a {
-	color:#0207FF;
+	color:#28867e;
 }
 .header .menu > .menu-iteam >.submenu{
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -351,7 +351,7 @@ p {
 	background: #212121;
 	top: 100%;
 	padding:10px 0;
-	border: 2px solid #0207FF;
+	border: 2px solid #28867e;
 	transform: translateY(10px);
 	opacity: 0;
 	visibility: hidden;
@@ -396,7 +396,7 @@ p {
 	display: block;
 	height: 3px;
 	width: 24px;
-	background-color:#2133CC;
+	background-color:#28867e;
 	position: relative;
 }
 .header .open-nav-menu span:before,
@@ -406,7 +406,7 @@ p {
 	left:0;
 	width: 100%;
 	height: 100%;
-	background-color: #2133CC;
+	background-color: #28867e;
 	box-sizing: border-box;
 }
 .header .open-nav-menu span:before{
@@ -448,7 +448,7 @@ p {
 }
 
 .button .default-button{
-	background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
+	background: linear-gradient(-47deg, #28867e 0%, #1d5e58 100%);
 	color: #fff;
 	padding: 16px 43px 15px;
 	font-size: 20px;
@@ -573,13 +573,13 @@ p {
 
 .banner-details .hello  {
 	font-size: 45px;
-	color:#3B3474;
+	color:#28867e;
 	font-weight: 500;
 }
 .banner-details .cd-headline b{
 	font-weight: bold;
 	font-size: 70px;
-	color:#6728FE;
+	color:#28867e;
 }
 .banner-details .cd-headline{
 	position: relative;
@@ -628,11 +628,11 @@ p {
 	font-size: 15px;
 	text-align: center;
 	line-height: 41px;
-	color: #255afc;
+	color: #28867e;
 	transition:all 0.3s ease-out;
 }
 .banner-details .banner-link ul li a:hover i{
-	background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
+	background: linear-gradient(-47deg, #28867e 0%, #1a534f 100%);
 	color: #fff;
 	transition:all 0.3s ease;
 }
@@ -661,7 +661,7 @@ p {
 	font-size: 20px;
 	text-align: center;
 	line-height: 46px;
-	color: #7E30E6;
+	color: #28867e;
 }
 
 .awrd-title h6{
@@ -693,7 +693,7 @@ p {
 
 .section-heading h2{
 	font-weight: 700;
-	color: #3F396D;
+	color: #28867e;
 	font-size: 52px;
 	line-height: 54px;
 	margin-bottom: 46px;
@@ -709,7 +709,7 @@ p {
 	margin-bottom: 14px;
 	font-size: 22px;
 	line-height: 24px;
-	color: #6F34FE;
+	color: #28867e;
 }
 .service-area{
 	background:#FFFFFF;
@@ -739,7 +739,7 @@ p {
 	margin-bottom: 25px;
 }
 .service-single:hover{
-  border-color: #6F34FE;
+  border-color: #28867e;
  transform: rotate(0.5deg);
   transition: all 0.3s ease-in;
 }
@@ -769,7 +769,7 @@ p {
 	padding-bottom: 12px;
 }
 .service-content h4 a{
-	color:#6C31FC;
+	color:#28867e;
 	font-weight: 700;
 	font-size: 22px;
 }
@@ -779,7 +779,7 @@ p {
 }
 .service-content a {
 	font-size: 18px;
-	color: #3F396D;
+	color: #28867e;
 	padding-bottom: 5px;
 	position: relative;
 }
@@ -791,10 +791,10 @@ p {
 	content: '';
 	position: absolute;
 	transition: ease-in-out 0.3s;
-	background: #6C31FC;;
+	background: #28867e;;
 }
 .service-content a:hover {
-	color:#6C31FC;
+	color:#28867e;
 }
 .service-content a:hover::after {
 	width: 100%;
@@ -824,7 +824,7 @@ p {
 	min-width: 47%;
 	left: -55px;
 	margin-top: 55px;
-	background-color: #6728FE;
+	background-color: #28867e;
 	padding: 36px 40px 35px;
 	z-index: 1;
 	border-radius: 15px;
@@ -872,7 +872,7 @@ p {
 .about-area::before {
 	position: absolute;
 	content: "";
-	border: 6px solid #6728FE;
+	border: 6px solid #28867e;
 	width: 54px;
 	height: 54px;
 	top: 154px;
@@ -959,7 +959,7 @@ p {
 	top: 0;
 	bottom: 0;
 	width: 2px;
-	background: #6728FE;
+	background: #28867e;
 	left: 140px;
 }
 
@@ -988,7 +988,7 @@ p {
 	border-radius: 50%;
 	width: 20px;
 	height: 20px;
-	border: 4px solid #6728FE;
+	border: 4px solid #28867e;
 	z-index: 1;
 }
 .experiance-box li .text {
@@ -996,7 +996,7 @@ p {
 }
 
 .experiance-box li h6 {
-	color: #6F34FE;
+	color: #28867e;
 	font-size: 17px;
 	font-weight: 600;
 	text-transform: capitalize;
@@ -1031,7 +1031,7 @@ p {
 }
 .skill-box .flexiblebar {
 	height: 6px;
-	background: #6728FE;
+	background: #28867e;
 	border-radius: 10px;
 }
 
@@ -1042,7 +1042,7 @@ p {
 }
 .skill-box .percent{
    display: inline-block;
-   color: #4A29DD;;
+   color: #28867e;;
    font-size: 19px;
 }
 
@@ -1074,7 +1074,7 @@ p {
 .testimonial-singel::before {
 	position: absolute;
 	content: '\f10d';
-	color: #6728FE;
+	color: #28867e;
 	font-family: "Font Awesome 5 Free";
 	font-weight: 700;
 	display: block;
@@ -1159,7 +1159,7 @@ p {
   content: "";
   top: -3px;
   left: -3px;
-  border: 1px solid #6F34FE;
+  border: 1px solid #28867e;
   border-radius: 50%;
   width: calc(100% + 6px);
   height: calc(100% + 6px);
@@ -1172,7 +1172,7 @@ p {
   content: "";
   top: -6px;
   left: -6px;
-  border: 1px solid #6F34FE;
+  border: 1px solid #28867e;
   border-radius: 50%;
   width: calc(100% + 12px);
   height: calc(100% + 12px);
@@ -1180,7 +1180,7 @@ p {
   transition: all 0.3s ease;
 }
 .owl-dots .owl-dot.active span {
-  background: #6F34FE!important;
+  background: #28867e!important;
 }
  .owl-dots .owl-dot.active span::after {
   transform: scale(1);
@@ -1223,7 +1223,7 @@ p {
 	width: 0%;
 	height: 2px;
 	transition: all .3s ease-in-out;
-	background: #502ADE;
+	background: #28867e;
 }
 .portfolio-cate-list-full ul li:hover::after {
   width: 100%;
@@ -1269,7 +1269,7 @@ p {
 
 .content-full a i {
   color: #fff;
-  background: #6F34FE;
+  background: #28867e;
   font-size: 18px;
   padding: 12px;
   border-radius: 50px;
@@ -1284,7 +1284,7 @@ p {
 	text-transform: capitalize;
 	font-weight: 400;
 	margin-bottom: 2px;
-	color: #2f2fb9;
+	color: #28867e;
 	margin-top: 8px;
 	display: block;
 }
@@ -1334,7 +1334,7 @@ p {
 	color: #3F396D;
 }
 .post-content-inner h3 a:hover{
-	color: #6F34FE;
+	color: #28867e;
 }
 .post-content-inner p {
 	margin-bottom: 40px;
@@ -1356,7 +1356,7 @@ p {
 }
 .post-social li a{
 	font-size: 12px;
-	color: #6F34FE;
+	color: #28867e;
 }
 .read-more-btn a {
 	color: #606060;
@@ -1453,7 +1453,7 @@ p {
 	justify-content: center;
 	line-height: 1;
 	color: #fff;
-	background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
+	background: linear-gradient(-47deg, #28867e 0%, #13413d 100%);
 }
 .contact-address ul li .text {
 	-ms-flex: 1;
@@ -1473,7 +1473,7 @@ p {
 	font-size: 21px;
 }
 .contact-address .text label{
-	color: #6728FE;
+	color: #28867e;
 }
 
 .contact-form {
@@ -1488,7 +1488,7 @@ p {
 	font-size: 15px;
 }
 .form-control:focus {
-	outline: 1px solid #6f34fe;
+	outline: 1px solid #28867e;
 	box-shadow: 0 0 1px 0 #d9e3ff;
 }
 
@@ -1514,15 +1514,15 @@ p {
 	display: inline-flex;
 	padding: 8px 20px;
 	font-size: 16px;
-	color: #6728FE;
+	color: #28867e;
 	font-weight: 500;
 	border-radius: 50px;
-	border: 1px solid #6728FE;
+	border: 1px solid #28867e;
 	transition: ease all 0.35s;
 	transition: all 0.3s ease;
 }
 .contact-social ul li a:hover{
-	background:  #6728FE;
+	background:  #28867e;
 	color: #fff;
 	transition: all 0.3s ease;
 }
@@ -1532,7 +1532,7 @@ p {
 }
 
 .ajax-response{
-	color: #662DE2;
+	color: #28867e;
 }
 .footer-right p{
 	text-align: end;

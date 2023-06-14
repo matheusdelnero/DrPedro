@@ -266,21 +266,15 @@
 
 .mural-item{
   width: 50%;
-  background-color: rgba(145, 190, 216, 0.5);
+  background-color: rgba(51, 160, 145, 0.5);
   padding: 40px;
   gap: 20px;
   border-radius: 10px;
-
-}
-.mural-item-2{
-  width: 50%;
-  background-color: rgba(145, 190, 216, 0.5);
-  padding: 40px;
-  gap: 20px;
-  border-radius: 10px;
+  font-weight: bold;
   
 
 }
+
 
 .mural{
   display: flex;
