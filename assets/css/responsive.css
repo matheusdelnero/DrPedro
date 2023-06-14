@@ -428,6 +428,15 @@
   font-size: 17px;
 }
 
+@media all and (max-width:575px){
+  .button .default-button {
+    color: #fff;
+    padding: 12px 34px 15px;
+    font-size: 17px;
+    width: 100%;
+  }
+}
+
 .video-button a img {
   max-width: 115px;
   max-height: 115px;
