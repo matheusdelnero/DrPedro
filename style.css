@@ -712,11 +712,20 @@ p {
 	color: #28867e;
 }
 .service-area{
+	background:#e9eefc;
+	overflow: hidden;
+	position: relative;
+	z-index: 99;
+}
+
+.service-area2{
 	background:#FFFFFF;
 	overflow: hidden;
 	position: relative;
 	z-index: 99;
 }
+
+
 
 .service-area::before {
 	content: "";

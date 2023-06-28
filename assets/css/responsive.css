@@ -604,7 +604,18 @@ p{
 }
 }
   
-  
 
+.videodr{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
 
+@media (min-width: 851px) {
+  .videodr .frame {
+    width: 900px; /* Largura para telas maiores que 850px */
+    height: 550px; /* Altura para telas maiores que 850px */
+  }
+}
   
